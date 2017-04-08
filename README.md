@@ -1,7 +1,7 @@
 # music
 ## What's this repo?
 
-I keep my musical scores for my compositions here in vextab format.
+I keep the musical scores for my original compositions here in vextab format.
 
 ## ...Huh?
 ### First off, what's Vextab?
