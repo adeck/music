@@ -45,6 +45,11 @@ Then navigate your browser to `http://localhost:1234/flight`, to get the score +
 
 Hopefully obvious, but `example` isn't actually a piece by me. It's just an example (as the name suggests) from the vexflow site.
 
+## Copyright?
+
+I own the copyright for all the music, here, with the exception of the `example` piece.
+If you want to use any of it in something, ask my permission, first.
+
 [vextab]: http://www.vexflow.com/vextab/
 [song_for_june]: https://soundcloud.com/andrewdeck/song-for-june
 
