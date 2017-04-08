@@ -20,5 +20,14 @@ About a year or two ago I decided to start recording the things I've been compos
 Before two years ago I was terrible about recording things. So the only original composition I have recorded from before two years ago is [this guy][song_for_june], recorded on my phone at two in the morning. Compositionally, it's certainly not my best work. But I dunno. I still like it. Wrote it for my girlfriend at that time.
 -->
 
+## What kind of music?
+
+My musical tastes are all over the place, and w.r.t. guitar are inspired by a number of different guitar styles and traditions.
+But most of the stuff that's going on here will be classical / celtic / roots blues-inspired.
+
+<!--
+In high school I went through a phase of writing poetry and composed some stuff that was more rock to go along with the poetry. I still find that easy to do, but kind of as a consequence of finding it easy I don't really find it nearly as entertaining. That said, I might decide to do some of that for fun down the road.
+-->
+
 [vextab]: http://www.vexflow.com/vextab/
 [song_for_june]: https://soundcloud.com/andrewdeck/song-for-june
