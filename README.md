@@ -29,5 +29,22 @@ But most of the stuff that's going on here will be classical / celtic / roots bl
 In high school I went through a phase of writing poetry and composed some stuff that was more rock to go along with the poetry. I still find that easy to do, but kind of as a consequence of finding it easy I don't really find it nearly as entertaining. That said, I might decide to do some of that for fun down the road.
 -->
 
+## How do I render the score?
+
+Assuming you're using `virtualenvwrapper` you'd first...
+```
+mkvirtualenv music
+```
+
+...otherwise, just go right into:
+```
+pip install -r devel/requirements.txt
+./serve
+```
+Then navigate your browser to `http://localhost:1234/flight`, to get the score + tabs for the piece called `flight`. For the list of pieces available, just look in the `pieces` directory in here.
+
+Hopefully obvious, but `example` isn't actually a piece by me. It's just an example (as the name suggests) from the vexflow site.
+
 [vextab]: http://www.vexflow.com/vextab/
 [song_for_june]: https://soundcloud.com/andrewdeck/song-for-june
+
