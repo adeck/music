@@ -22,7 +22,7 @@ Before two years ago I was terrible about recording things. So the only original
 
 ## What kind of music?
 
-My musical tastes are all over the place, and are inspired by a number of different styles and traditions, particularly w.r.t. various guitar styles.
+My musical tastes are all over the place, and are inspired by a number of different styles and traditions.
 But most of the stuff that's going on here will be classical / celtic / roots blues-inspired. None of the compositions I currently have recorded have any lyrics to them. Frankly, I usually consider adding lyrics to be an admission of musical failure.
 
 <!--
