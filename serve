@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+from flask import Flask
+import click
+
+env = Environment(
+    loader=FileSystemLoader('devel'),
+    autoescape=select_autoescape(['html'])
+)
+template = env.get_template('template.html')
+
+app = Flask(__name__)
+
+@app.route("/favicon.ico")
+def nope(): return ''
+@app.route("/vextab.js")
+def vextab(): return open('devel/vextab/vextab-div.js','r').read()
+@app.route("/<string:piece>")
+def display(piece):
+    return template.render(piece=piece)
+
+@click.command()
+def cli():
+    app.run(host='127.0.0.1', port=1234, debug=True)
+
+if __name__ == '__main__':
+    cli()
+
+
+
+
