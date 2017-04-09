@@ -8,6 +8,10 @@ I keep the musical scores for my original compositions here in vextab format.
 
 [Vextab][vextab] is a plaintext file format for describing musical scores, specifically for guitar music. It was intended to be easy to write and, imo, it's better than the alternatives I've looked at. Ideally, my stuff would be translated into MusicXML or some other standard compositional format to make it easier to actually autogenerate playable audio (e.g. MIDI files), but frankly this is good enough for my needs right now.
 
+At the end of the day if push comes to shove I can write my own vextab parser.
+The onein the vextab repo's only ~800 lines, after all.
+I'm feeling recursive descent...
+
 ### "musical compositions"?
 
 I've been playing guitar for 14 years at this point (before that I played violin for four years). Most of that time I've been playing classical-style guitar. For various reasons, though I can read guitar music, my sightreading is really slow. So every piece I know I have memorized.
