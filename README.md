@@ -54,9 +54,7 @@ mkvirtualenv music
 pip install -r devel/requirements.txt
 ./serve
 ```
-Then navigate your browser to `http://localhost:1234/flight`, to get the score + tabs for the piece called `flight`. For the list of pieces available, just look in the `pieces` directory in here.
-
-Hopefully obvious, but `example` isn't actually a piece by me. It's just an example (as the name suggests) from the vexflow site.
+Then navigate your browser to `http://localhost:1234/2017/1/flight`, to get the score + tabs for the piece called `flight`. For the list of songs available, just look in the `songs` directory in here.
 
 ## Contributing?
 
@@ -79,7 +77,7 @@ Within the directory structure, the actual names of the files aren't meant to ma
 But two things do matter:
 
 1. A given piece of music should have its songid somewhere in its file, and
-2. for ease of reference, a song from year X should be kept under `songs/X/`
+2. for ease of reference, a song with songid-YEAR-NUM should be kept under `songs/YEAR/NUM/`
 
 ### Commits
 
@@ -92,7 +90,7 @@ The following is the list of commit types I'm using:
 
 ## Copyright?
 
-I own the copyright for all the music, here, with the exception of the `example` piece.
+I own the copyright for all the music here.
 If you want to use any of it in something, ask my permission, first.
 
 [vextab]: http://www.vexflow.com/vextab/
