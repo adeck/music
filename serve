@@ -15,7 +15,9 @@ app = Flask(__name__)
 @app.route("/favicon.ico")
 def nope(): return ''
 @app.route("/vextab.js")
-def vextab(): return open('devel/vextab/vextab-div.js','r').read()
+def vextab():
+    with open('devel/vextab/vextab-div.js','r') as f:
+        return f.read()
 @app.route("/<string:piece>")
 def display(piece):
     return template.render(piece=piece)
