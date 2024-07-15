@@ -75,6 +75,12 @@ While the name might change, the unique ID cannot.
 The unique IDs will be of the form `songid-{YEAR}-{SEQUENCE_NUMBER}`, where `{YEAR}` is the first year the thing has actually been written down, and `{SEQUENCE_NUMBER}` is an integer value starting at 1.
 So the first song I commit to this repo in the year 2200 will have the ID `songid-2200-1`, and the second song will be `songid-2200-2`, etc.
 
+Within the directory structure, the actual names of the files aren't meant to matter too much.
+But two things do matter:
+
+1. A given piece of music should have its songid somewhere in its file, and
+2. for ease of reference, a song from year X should be kept under `songs/X/`
+
 ### Commits
 
 I'd like to use a variation on [conventional commits] in this repo, whereby the commits might look something like `notes: gave songid-2024-1 an ending`.
